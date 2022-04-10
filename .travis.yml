@@ -1,8 +1,9 @@
-language: "python"
+language: python
+
 python:
-    - "3.8"
-install:
-    - pip install flake8
-script:
-    - flake8 --max-line-length=100 .
-    - python tests/syntax_lint.py
+
+  - "2.7"
+
+script: 
+
+  - python --version
